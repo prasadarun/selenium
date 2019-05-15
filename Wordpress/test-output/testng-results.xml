@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46756" started-at="2019-05-15T10:04:06Z" finished-at="2019-05-15T10:04:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46756" started-at="2019-05-15T10:04:06Z" finished-at="2019-05-15T10:04:52Z">
+      <class name="com.wordpress.test.LoginpageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wordpress.test.LoginpageTest@3bfdc050]" name="setUp" is-config="true" duration-ms="11904" started-at="2019-05-15T10:04:06Z" finished-at="2019-05-15T10:04:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateincorrectloginTest1()[pri:0, instance:com.wordpress.test.LoginpageTest@3bfdc050]" name="validateincorrectloginTest1" duration-ms="1521" started-at="2019-05-15T10:04:17Z" finished-at="2019-05-15T10:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateincorrectloginTest1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wordpress.test.LoginpageTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="830" started-at="2019-05-15T10:04:19Z" finished-at="2019-05-15T10:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wordpress.test.LoginpageTest@3bfdc050]" name="setUp" is-config="true" duration-ms="8421" started-at="2019-05-15T10:04:20Z" finished-at="2019-05-15T10:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateincorrectloginTest2()[pri:0, instance:com.wordpress.test.LoginpageTest@3bfdc050]" name="validateincorrectloginTest2" duration-ms="1235" started-at="2019-05-15T10:04:28Z" finished-at="2019-05-15T10:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateincorrectloginTest2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wordpress.test.LoginpageTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="807" started-at="2019-05-15T10:04:29Z" finished-at="2019-05-15T10:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wordpress.test.LoginpageTest@3bfdc050]" name="setUp" is-config="true" duration-ms="8019" started-at="2019-05-15T10:04:30Z" finished-at="2019-05-15T10:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateloginTest()[pri:0, instance:com.wordpress.test.LoginpageTest@3bfdc050]" name="validateloginTest" duration-ms="3663" started-at="2019-05-15T10:04:38Z" finished-at="2019-05-15T10:04:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wordpress.test.LoginpageTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="822" started-at="2019-05-15T10:04:42Z" finished-at="2019-05-15T10:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wordpress.test.LoginpageTest@3bfdc050]" name="setUp" is-config="true" duration-ms="8616" started-at="2019-05-15T10:04:43Z" finished-at="2019-05-15T10:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatetitleTest()[pri:0, instance:com.wordpress.test.LoginpageTest@3bfdc050]" name="validatetitleTest" duration-ms="13" started-at="2019-05-15T10:04:51Z" finished-at="2019-05-15T10:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wordpress.test.LoginpageTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="869" started-at="2019-05-15T10:04:51Z" finished-at="2019-05-15T10:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wordpress.test.LoginpageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
