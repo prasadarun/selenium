@@ -7,12 +7,14 @@ import org.testng.annotations.Test;
 import com.wordpress.base.TestBase;
 import com.wordpress.pagelayers.Homepage;
 import com.wordpress.pagelayers.Loginpage;
+import com.wordpress.pagelayers.Newpost;
 
 
 public class HomepageTest extends TestBase {
 	
 	Homepage homepage;
 	Loginpage loginpage;
+	Newpost newpost;
 	
 	public HomepageTest() {
 		super();
@@ -43,7 +45,7 @@ public void validatecustomizeTest() {
 @Test 
 
 public void validatefirstenrtyTest() throws Exception {
-	homepage.validatefirstentry();
+	newpost = homepage.validatefirstentry();
 	
 	}
 
@@ -60,6 +62,10 @@ public void validatecreatepageTest() {
 public void validatecommentsTest() {
 	homepage.validateComments();
 	}
+
+
+
+
 
 	
 @AfterMethod

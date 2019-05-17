@@ -64,10 +64,10 @@ public class Homepage extends TestBase {
 	}
 	
 	
-	public boolean validatefirstentry() throws Exception {
+	public Newpost validatefirstentry() throws Exception {
 		Thread.sleep(2000);
 		firstEntry.click();
-		return true;
+		return new Newpost();
 		
 	}
 	
