@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.wordpress.test.DashboardTest">
+      <class name="com.wordpress.test.NewpostTest">
         <methods>
-          <include name="tearndown"/>
-          <include name="setUp"/>
-          <include name="validateScollTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="valiadateMediabtnTest"/>
+          <include name="validateposttileTest"/>
         </methods>
-      </class> <!-- com.wordpress.test.DashboardTest -->
+      </class> <!-- com.wordpress.test.NewpostTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
