@@ -1,5 +1,6 @@
 package com.wordpress.pagelayers;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -7,8 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.wordpress.base.TestBase;
 
 public class Loginpage extends TestBase {
-	
-	Loginpage loginpage;
+
 	
 	@FindBy(xpath = "//label[contains(text(),'Username or Email Address')]")
 	WebElement username;
@@ -25,23 +25,35 @@ public class Loginpage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public boolean validatelogin() {
+	public Homepage validatelogin() {
 		username.click();
 		username.sendKeys(prop.getProperty("username1"));
+		System.out.print(prop.getProperty("username1")+ "username");
 		password.click();
 		password.sendKeys(prop.getProperty("password1"));
+		System.out.print(prop.getProperty("password1")+ "password");
 		submit.click();
-		return true;
+		return new Homepage();
 	}
 	
 	
 	public boolean validateincorrectlogin1() {
 		username.click();
 		username.sendKeys(prop.getProperty("username2"));
+		System.out.print(prop.getProperty("username1")+ "username");
 		password.click();
 		password.sendKeys(prop.getProperty("password2"));
+		System.out.print(prop.getProperty("password1")+ "passowrd");
 		submit.click();
-		return true;
+		String errmsg = driver.findElement(By.xpath("//div[@id='login_error']")).getText();
+		String errmsg1 = "ERROR: The password you entered for the username opensourcecms is incorrect. Lost your password?";
+		
+		if(errmsg.contains(errmsg1))
+			return true;
+		else {
+			return false;
+		}
+		
 	}
 	
 	

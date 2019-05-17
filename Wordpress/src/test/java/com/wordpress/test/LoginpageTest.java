@@ -7,11 +7,13 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.wordpress.base.TestBase;
+import com.wordpress.pagelayers.Homepage;
 import com.wordpress.pagelayers.Loginpage;
 
 public class LoginpageTest extends TestBase {
 	
 	Loginpage loginpage;
+	Homepage homepage;
 	
 	
 	public LoginpageTest() {
@@ -28,7 +30,7 @@ public class LoginpageTest extends TestBase {
 
 @Test
  public void validateloginTest() {
-	loginpage.validatelogin();
+	homepage = loginpage.validatelogin();
 }
 
 @Test

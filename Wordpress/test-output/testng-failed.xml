@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.wordpress.test.LoginpageTest">
+      <class name="com.wordpress.test.DashboardTest">
         <methods>
+          <include name="tearndown"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="validateloginTest"/>
+          <include name="validateScollTest"/>
         </methods>
-      </class> <!-- com.wordpress.test.LoginpageTest -->
+      </class> <!-- com.wordpress.test.DashboardTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
