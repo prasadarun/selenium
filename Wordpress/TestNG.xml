@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wordpress_Regression_Test">
+ <test name="TestNG_Test">
+ <classes>
+ <class name="com.wordpress.test.LoginpageTest" />
+ <class name="com.wordpress.test.HomepageTest" />
+ <class name="com.wordpress.test.DashboardTest" />
+ <class name="com.wordpress.test.NewpostTest" />
+ </classes>
+ </test>
+</suite>
