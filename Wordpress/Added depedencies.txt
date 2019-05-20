@@ -1,6 +1,6 @@
 
 
-******** For slelenium java *********
+******** For selenium java *********
 
  <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
